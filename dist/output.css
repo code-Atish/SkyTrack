@@ -540,10 +540,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.invisible{
-  visibility: hidden;
-}
-
 .absolute{
   position: absolute;
 }
