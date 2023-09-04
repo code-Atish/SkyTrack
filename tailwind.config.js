@@ -9,7 +9,7 @@ module.exports = {
         'random': 'cyan'
       },
       backgroundImage: {
-        'nature-bg': "url(../dist/images/nature-bg.jpg)",
+        'nature-bg': "url(../images/nature-bg.jpg)",
       },
       width: {
         '100': '32rem',
