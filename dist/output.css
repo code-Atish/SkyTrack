@@ -540,6 +540,10 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible{
+  visibility: hidden;
+}
+
 .absolute{
   position: absolute;
 }
@@ -662,7 +666,7 @@ html {
 }
 
 .bg-nature-bg{
-  background-image: url(../images/nature-bg.jpg);
+  background-image: url(../dist/images/nature-bg.jpg);
 }
 
 .bg-cover{
