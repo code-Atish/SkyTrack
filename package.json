@@ -1,0 +1,18 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://code-Atish.github.io/Weather_App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "predeploy":"npm run dev",
+    "deploy":"gh-pages -d dev"
+  },
+  "author": "atishsuslade@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
